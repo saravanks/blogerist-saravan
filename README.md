@@ -1,5 +1,7 @@
 # Blogerist
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8f2e596b-767e-4a29-80bb-351e4b59c44e/deploy-status)](https://app.netlify.com/sites/blogerist/deploys)
+
 **Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
 
 This repo follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
