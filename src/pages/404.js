@@ -14,7 +14,7 @@ const NotFound = (props) => {
       <div className='banner'>
         <ul>
           <h1>404</h1>
-          <p>Oh no, You can go back to our <Link to='/' title='Blogist Home'>home page</Link>, or explore some more post down below...</p>
+          <p>Oh no, You can go back to our <Link to='/' title='Blogerist Home'>home page</Link>, or explore some more post down below...</p>
         </ul>
       </div>
     </div>
