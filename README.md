@@ -1,4 +1,7 @@
 # Blogerist
+<p align='center'>
+  <img src='./static/images/README.png' alt='GatsbyFinds' />
+</p>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8f2e596b-767e-4a29-80bb-351e4b59c44e/deploy-status)](https://app.netlify.com/sites/blogerist/deploys)
 
