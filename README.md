@@ -20,7 +20,7 @@ This repo follows the [JAMstack architecture](https://jamstack.org) by using Git
 - Netlify deploy configuration
 - Netlify forms functionality
 - Discus commenting added to each blog post
-- Perfect score on Lighthouse for SEO, Accessibility and Performance (wip:PWA)
+- Perfect score on Lighthouse for SEO, Accessibility and Performance
 - ..and more
 
 ## Prerequisites
