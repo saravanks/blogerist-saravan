@@ -13,9 +13,9 @@ export const PostTemplate = ({ id, route, date, avatar, author, instagram, twitt
   const disqusShortname = 'example';  // Keep this outside of disqusConfig for Disqus to work
   const disqusConfig = {
     identifier: 'something-unique-12345', // Can Be Anything (recommend `${ id }`)
-		title: 'Example Thread', // Can Be Anything (recommend `${ title }`)
-		url: 'http://www.example.com/example-thread', // Can Be Anything (recommend `http://www.blogist.netlify.com${ route }`)
-		category_id: '123456' // Can Be Anything (recommend `${ id }`)
+    title: 'Example Thread', // Can Be Anything (recommend `${ title }`)
+    url: 'http://www.example.com/example-thread', // Can Be Anything (recommend `http://www.blogerist.netlify.com${ route }`)
+    category_id: '123456' // Can Be Anything (recommend `${ id }`)
   };
   return(
   <div className='PageWrapper'>
@@ -26,8 +26,8 @@ export const PostTemplate = ({ id, route, date, avatar, author, instagram, twitt
         <p>{ author }</p>
         <span>
           { date }<br />
-          {instagram ? <a href={ instagram } title='Follow me on Instagram!' target='_blank' rel='noopener noreferrer'><FaInstagram className='ico' /></a> : <a href='https://instagram.com/blogist' title='Follow me on Instagram!' target='_blank' rel='noopener noreferrer'><FaInstagram className='ico' /></a>}
-          {twitter ? <a href={ twitter } title='Follow me on Twitter!' target='_blank' rel='noopener noreferrer'><FaTwitter className='ico' /></a> : <a href='https://twitter.com/blogist' title='Follow me on Twitter!' target='_blank' rel='noopener noreferrer'><FaTwitter className='ico' /></a>}
+          {instagram ? <a href={ instagram } title='Follow me on Instagram!' target='_blank' rel='noopener noreferrer'><FaInstagram className='ico' /></a> : <a href='https://instagram.com/blogerist' title='Follow me on Instagram!' target='_blank' rel='noopener noreferrer'><FaInstagram className='ico' /></a>}
+          {twitter ? <a href={ twitter } title='Follow me on Twitter!' target='_blank' rel='noopener noreferrer'><FaTwitter className='ico' /></a> : <a href='https://twitter.com/blogerist' title='Follow me on Twitter!' target='_blank' rel='noopener noreferrer'><FaTwitter className='ico' /></a>}
         </span>
       </div>
       <div className='titleBar'>
@@ -36,12 +36,12 @@ export const PostTemplate = ({ id, route, date, avatar, author, instagram, twitt
     </div>
     <PostContent content={ content } />
     <div className='message'>
-      <p>Blogist is reader supported, When you buy through links on our site we may earn an affiliate commission, <Link to='/terms' title='Learn More'>Learn More</Link></p>
+      <p>Blogerist is reader supported, When you buy through links on our site we may earn an affiliate commission, <Link to='/terms' title='Learn More'>Learn More</Link></p>
     </div>
     <div className='shareBar'>
-      <a href={ `https://www.facebook.com/sharer.php?u=https://blogist.netlify.com${ route }&amp;t=Check out this awesome post from @swipeist "${ title }"` } title='Share To Facebook' target='_blank' rel='noopener noreferrer'><button className='shareBtn fb'><FaFacebookF className='ico' /> Share</button></a>
-      <a href={ `https://twitter.com/intent/tweet?url=https://blogist.netlify.com${ route }&amp;text=Check out this awesome post from @swipeist "${ title }"` } title='Share To Twitter' target='_blank' rel='noopener noreferrer'><button className='shareBtn twitter'><FaTwitter className='ico' /> Share</button></a>
-      <a href={ `https://www.reddit.com/submit?url=https://blogist.netlify.com${ route }` } title='Share To Reddit' target='_blank' rel='noopener noreferrer'><button className='shareBtn reddit'><FaRedditAlien className='ico' /> Share</button></a>
+      <a href={ `https://www.facebook.com/sharer.php?u=https://blogerist.netlify.com${ route }&amp;t=Check out this awesome post from @blogerist "${ title }"` } title='Share To Facebook' target='_blank' rel='noopener noreferrer'><button className='shareBtn fb'><FaFacebookF className='ico' /> Share</button></a>
+      <a href={ `https://twitter.com/intent/tweet?url=https://blogerist.netlify.com${ route }&amp;text=Check out this awesome post from @blogerist "${ title }"` } title='Share To Twitter' target='_blank' rel='noopener noreferrer'><button className='shareBtn twitter'><FaTwitter className='ico' /> Share</button></a>
+      <a href={ `https://www.reddit.com/submit?url=https://blogerist.netlify.com${ route }` } title='Share To Reddit' target='_blank' rel='noopener noreferrer'><button className='shareBtn reddit'><FaRedditAlien className='ico' /> Share</button></a>
     </div>
     <DiscussionEmbed shortname={ disqusShortname } config={ disqusConfig } />
   </div>
