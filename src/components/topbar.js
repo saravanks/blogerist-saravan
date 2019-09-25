@@ -5,7 +5,7 @@ import { FaSearch } from 'react-icons/fa';
 const Topbar = () => {
   return(
   <div className='TopbarStyle'>
-    <Link to='/' title='Blogist' className='logo'>Blogist</Link>
+    <Link to='/' title='Blogerist' className='logo'>Blogerist</Link>
     <div className='right'>
       <Link to='/search' name='search' title='Search'><FaSearch className='ico' /></Link>
     </div>
