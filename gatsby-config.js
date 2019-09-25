@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     author: '@Bvlktech',
-    title: 'Blogist',
+    title: 'Blogerist',
     description:'Starter blog built with GatsbyJS.',
-    siteUrl: 'https://www.blogist.netlify.com'
+    siteUrl: 'https://www.blogerist.netlify.com'
   },
   plugins: [
     'gatsby-plugin-remove-trailing-slashes',
@@ -31,8 +31,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Blogist',
-        short_name: 'Blogist',
+        name: 'Blogerist',
+        short_name: 'Blogerist',
         start_url: '/',
         background_color: '#fdfdfd',
         theme_color: '#21232b',
